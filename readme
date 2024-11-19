@@ -1,5 +1,6 @@
 I made a function for bubble sort that sorts integers in an array. The function also prints the original and sorted array.
 For the first testing case, 10 random numbers will be generated and sorted. In the second case, the array is already sorted, so modification was made. In the third one, a descending array was sorted into an ascending one. The fourth tested an array with all same numbers, while the fifth and sixth ones tested the edge cases.
+For optimization, I used a boolean that represents if any swap was made, and an if statement to break out of the loop if no swap was made. In a bast case scenario when the array is already sorted, the time complexity would be O(n).
 The time complexity of this sorting is O(n^2), with the space complexity of O(1).
 
 Below is a sample output with a set of test cases:
